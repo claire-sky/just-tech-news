@@ -1,0 +1,27 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "A news-based site with a coding theme",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claire-sky/just-tech-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claire-sky/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/claire-sky/just-tech-news#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^7.0.0-alpha.4"
+  }
+}
